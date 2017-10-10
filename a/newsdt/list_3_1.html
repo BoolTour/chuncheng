@@ -1,0 +1,241 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>新闻动态</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" type="text/css" href="/templets/default/css/style.css" media="all">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.js"></script>
+<!--点击图片放大-->
+<script language="javascript" type="text/javascript" src="/templets/default/js/jquery.lightbox-0.5.js"></script>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+	var flag=0;
+		$(".menu>li").bind({
+			mouseenter:function(){
+				$(this).find(">a").addClass("ns");
+				if($(this).find(">a").hasClass("ns")) flag=1; else flag=0;
+				$(this).find(">ul").show();
+			},
+			mouseleave:function(){
+				$(this).find(">ul").hide()
+				$(this).find(">a").removeClass("ns");
+			}
+			});
+	
+	$('.pic a').lightBox();
+	});
+	
+		function ShowNav(idn){
+	if($(idn).parent("li").find("ul").css("display")=='none') 
+	{
+	$(".left_nav li ul").slideUp();
+	$(idn).parent("li").find("ul").slideDown();}
+	}
+</script>
+<!--点击图片放大-->
+</head>
+<body>
+
+<!--头部导航--> 
+
+<div class="top">
+  <div class="nav clearfix">
+    <div class="logo"><img src="/templets/default/images/logo.png"></div>
+    <div class="inNav">
+     <!-- <div class="inNavTop clearfix">
+        <p><a href="#">设为首页 | 收藏本站</a></p>
+      </div>-->
+      <div class="navB">
+        <ul class="clearfix">
+          <li><a  href="/">首页</a></li>
+          
+          <li><a href="/a/gy/">关于我们</a></li>
+          
+          <li><a href="/a/meishi/">产品展示</a></li>
+          <li><a href='/a/newsdt/' class='row'>新闻动态</a></li>
+          <li><a href="/a/lx/">联系我们</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="news">
+  <div class="hd2">
+    <h3><strong>新闻动态/</strong><span>NEWS</span></h3>
+  </div>
+  <ul>
+    <li class="clearfix"> <a href="/a/newsdt/2017/1007/25.html"> <img src="/uploads/allimg/160921/6.jpg">
+      <h4>月季芽插法繁殖</h4>
+      <span>发布时间：[17-10-07]</span>
+      <p>春 天，休眠了一个冬天的月季开始萌发新芽。月季的萌芽能力很强，修剪过的月季，几个壮枝的每个枝上都会冒出少则五六个、多则10数个的新芽，为了使株形匀 称，营......</p>
+      </a> </li><li class="clearfix"> <a href="/a/newsdt/2017/1007/24.html"> <img src="/uploads/allimg/160921/5.jpg">
+      <h4>月季树运输途中的注意事项</h4>
+      <span>发布时间：[17-10-07]</span>
+      <p>近日，记者看到一些国外公司在出口盆栽树状花卉时，除了用竹竿固定植株外，还用两根修过边缘的木条来撑住盆器，在长途运输时，这样做可以防止花盆相互挤压，同时......</p>
+      </a> </li><li class="clearfix"> <a href="/a/newsdt/2017/1007/23.html"> <img src="/uploads/allimg/160921/4.jpg">
+      <h4>月季翻盆的最佳时节</h4>
+      <span>发布时间：[17-10-07]</span>
+      <p>3月，是月季翻盆的最好时节。由于月季抗逆性强，对季节的反应非常敏感，3月气温升高，月季开始萌发新芽，在此时进行翻盆能较好地保存养分，同时在翻盆后可使月季......</p>
+      </a> </li><li class="clearfix"> <a href="/a/newsdt/2017/1007/22.html"> <img src="/uploads/allimg/160921/3.jpg">
+      <h4>月季的日常养护</h4>
+      <span>发布时间：[17-10-07]</span>
+      <p>月季的日常养护 一般情况下，大多数品种的月季需要的生长环境是一样的，就是充足的光照和保湿且排水透气性良好的弱酸性土壤。在日常养护作业中也应注意以下几点......</p>
+      </a> </li><li class="clearfix"> <a href="/a/newsdt/2017/1007/21.html"> <img src="/uploads/allimg/160921/2.jpg">
+      <h4>月季白粉病的识别及防治</h4>
+      <span>发布时间：[17-10-07]</span>
+      <p>症状：病菌侵染 月季 的 叶片、花器、嫩梢等。早春，病芽展开的叶片上下两面布满白色粉状物。叶片皱缩反卷、变厚，以后逐渐干枯死亡，成为初侵染源。生长季节叶片......</p>
+      </a> </li>
+  </ul>
+  <div id="pages">   <a>首页</a> 
+ <a>1</a> 
+  <a href='list_3_2.html'>2</a> 
+  <a href='list_3_2.html'>下一页</a> 
+  <a href='list_3_2.html'>末页</a> 
+ </div>
+</div>
+<!--底部--> 
+<!--联系我们-->
+
+<div class="lianxi">
+  <div class="inLianxi">
+    <div class="hd1">
+      <h3><strong>联系我们/</strong><span>CONTACT</span></h3>
+    </div>
+    <div class="inLX clearfix">
+      <!--
+          <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+        <input type="hidden" name="action" value="post" />
+        <input type="hidden" name="diyid" value="1" />
+        <input type="hidden" name="do" value="2" />
+        <div class="inLianxiFl">
+          <p>
+            <label>姓名：</label>
+            <input type="text" class="biaoA" name='lyxm' id='lyxm'>
+          </p>
+          <p>
+            <label>邮箱：</label>  
+            <input type="text" class="biaoA" name='lyyx' id='lyyx'>
+          </p>
+          <p>
+            <label>手机：</label>
+            <input type="text" class="biaoA" name='lysj' id='lysj'>
+          </p>
+          <p>
+            <label class="Liu" >留言：</label>
+            <textarea name='lynr' id='lynr'></textarea>
+          </p>
+          <input type="hidden" name="dede_fields" value="lyxm,text;lyyx,text;lysj,text;lynr,multitext" />
+          <input type="hidden" name="dede_fieldshash" value="759e920317dbddc299ec34e53452b86e" />
+          <input type="submit" name="submit" value="提 交" class="tijiao" />
+        </div>
+        </form>
+      -->
+      <div class="inLianxiFl">
+          <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+<meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+<title>百度地图API自定义地图</title>
+<!--引用百度地图API-->
+<style type="text/css">
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.iw_poi_title {
+	color: #CC5522;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word
+}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+<!--百度地图容器-->
+<div style="width:501px;height:255px;border:#ccc solid 1px;" id="dituContent"></div>
+</body>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(112.633965,33.15092);//定义一个中心点坐标
+        map.centerAndZoom(point,12);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    
+    initMap();//创建和初始化地图
+</script>
+</html>
+      </div>
+      <div class="inLianxiFr"> <strong>联系热线：15638981782</strong>
+        <p> <span style="color:#CCCCCC;font-size:14px;"><span style="font-size:14px;color:#CCCCCC;">南阳市卧龙春诚月季园</span></span> </p>
+        <p> <span style="color:#CCCCCC;font-size:14px;"><span style="line-height:24px;color:#CCCCCC;font-size:14px;">公司地址：河南省南阳市卧龙春诚月季园</span></span> </p>
+        <p> <span style="color:#CCCCCC;font-size:16px;"><span style="font-size:16px;color:#CCCCCC;"> </span></span> </p>
+        <!--<p class="MsoNormal"> <span style="color:#CCCCCC;font-size:14px;line-height:1.5;"><span style="color:#CCCCCC;font-size:14px;line-height:21px;white-space:normal;"><span style="color:#CCCCCC;font-size:14px;line-height:21px;white-space:normal;">公司传真：</span><br>
+          </span></span> </p>-->
+        <!--
+            <p class="MsoNormal"> <span style="color:#CCCCCC;font-size:14px;line-height:1.5;"><span style="color:#CCCCCC;font-size:14px;line-height:21px;white-space:normal;">加盟咨询QQ：3254602527</span></span> </p>
+            <p class="MsoNormal"> <span style="color:#CCCCCC;font-size:14px;line-height:21px;">加盟咨询QQ：313265656</span> </p>
+        -->
+        <p> <span style="color:#CCCCCC;font-size:14px;line-height:1.5;">E-mail: &nbsp;150412883@qq.com</span> </p>
+        <div class="shijian">
+          <p> &nbsp;<img src="/templets/default/images/4fbfc30d4e482504e48773250c0aab65.jpg" alt=""> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--底部-->
+<div class="footer">
+  <p> www.yueji10.com  春城月季园 版权所有 </p>
+  <p> 南阳市卧龙区春诚月季园    地址：河南省南阳市卧龙春诚月季园 </p>
+  <p>技术支持：<a target="_blank" href="http://www.xihewh.com">曦和文化</a>&nbsp;</p>
+</div>
+
+</body>
+</html>

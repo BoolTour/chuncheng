@@ -1,0 +1,5 @@
+INSERT INTO `dede_addon17` VALUES('62','55','','','127.0.0.1');
+INSERT INTO `dede_addon17` VALUES('63','55','','','127.0.0.1');
+INSERT INTO `dede_addon17` VALUES('64','55','','','127.0.0.1');
+INSERT INTO `dede_addon17` VALUES('65','55','','','127.0.0.1');
+INSERT INTO `dede_addon17` VALUES('66','55','','','127.0.0.1');

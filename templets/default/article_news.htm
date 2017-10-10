@@ -1,0 +1,59 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>{dede:field.title/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/style.css" media="all">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.js"></script>
+<!--点击图片放大-->
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.lightbox-0.5.js"></script>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+	var flag=0;
+		$(".menu>li").bind({
+			mouseenter:function(){
+				$(this).find(">a").addClass("ns");
+				if($(this).find(">a").hasClass("ns")) flag=1; else flag=0;
+				$(this).find(">ul").show();
+			},
+			mouseleave:function(){
+				$(this).find(">ul").hide()
+				$(this).find(">a").removeClass("ns");
+			}
+			});
+	
+	$('.pic a').lightBox();
+	});
+	
+		function ShowNav(idn){
+	if($(idn).parent("li").find("ul").css("display")=='none') 
+	{
+	$(".left_nav li ul").slideUp();
+	$(idn).parent("li").find("ul").slideDown();}
+	}
+</script>
+<!--点击图片放大-->
+</head>
+<body>
+
+<!--头部导航--> 
+{dede:include filename="head.htm"/}
+<div class="newsXq">
+  <div class="hd2">
+    <h3><strong>{dede:field name='typename'/}</strong></h3>
+  </div>
+  <div class="daohang">
+    <p>您当前位置：{dede:field name='position'/} </p>
+  </div>
+  <div class="newsQ">
+    <h3>{dede:field.title/}</h3>
+    <div class="RiQI clearfix"><span>[{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}]</span></div>
+    <p> <span style="font-size:16px;">{dede:field.newsnr/}<br>
+      <br>
+  </div>
+</div>
+<!--底部--> 
+{dede:include filename="foot.htm"/}
+</body>
+</html>

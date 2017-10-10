@@ -1,0 +1,123 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="author" content="order by dede58.com" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/style.css" media="all">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.js"></script>
+<!--点击图片放大-->
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.lightbox-0.5.js"></script>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+	var flag=0;
+		$(".menu>li").bind({
+			mouseenter:function(){
+				$(this).find(">a").addClass("ns");
+				if($(this).find(">a").hasClass("ns")) flag=1; else flag=0;
+				$(this).find(">ul").show();
+			},
+			mouseleave:function(){
+				$(this).find(">ul").hide()
+				$(this).find(">a").removeClass("ns");
+			}
+			});
+	
+	$('.pic a').lightBox();
+	});
+	
+		function ShowNav(idn){
+	if($(idn).parent("li").find("ul").css("display")=='none') 
+	{
+	$(".left_nav li ul").slideUp();
+	$(idn).parent("li").find("ul").slideDown();}
+	}
+</script>
+<meta http-equiv="mobile-agent" content="format=xhtml;url={dede:global.cfg_mobileurl/}/index.php">
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="{dede:global.cfg_mobileurl/}/index.php";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+<!--点击图片放大-->
+</head>
+<body>
+<!--头部导航--> 
+{dede:include filename="head.htm"/} 
+<!--焦点图部分-->
+<div class="mainbanner clear">
+  <div class="mainbanner_window">
+    <ul id="slideContainer" style="left: -1920px; ">
+      <li> <a href=""> <img src="{dede:global.cfg_templets_skin/}/images/eb6121661fab12a725b6ea7167967d33.jpg" width="1920" height="620"> </a> </li>
+      <li> <a href=""> <img src="{dede:global.cfg_templets_skin/}/images/506123c5029db18ed1764b2d44be6f8f.jpg" width="1920" height="620"> </a> </li>
+      <li> <a href=""> <img src="{dede:global.cfg_templets_skin/}/images/08ba4f5c1eb819e867d1c610288dc075.jpg" width="1920" height="620"> </a> </li>
+      <!--<li> <a href=""> <img src="{dede:global.cfg_templets_skin/}/images/76d0c160fe80989ca47433fff0d7e32e.jpg" width="1920" height="620"> </a> </li>
+      <li> <a href=""> <img src="{dede:global.cfg_templets_skin/}/images/jdt2.jpg" width="1920" height="620"> </a> </li>-->
+    </ul>
+  </div>
+  <ul class="mainbanner_list">
+    <li class=""><a href="javascript:void(0);"></a></li>
+    <li class="active"><a href="javascript:void(0);"></a></li>
+    <li><a href="javascript:void(0);"></a></li>
+    <!--<li><a href="javascript:void(0);"></a></li>
+    <li><a href="javascript:void(0);"></a></li>-->
+  </ul>
+  <!--<div class="biaoyu">
+    <div class="inbiaoyu"> <strong> 全国加盟热线<span><img src="{dede:global.cfg_templets_skin/}/images/tel.png"></span> {dede:global.jmdh/} </strong>
+      <p>想吃正宗纯现做寿司，请认准初鲜！—我们专注于做中国纯现做、平价外带寿司最受欢迎品牌<br>
+        寿司产品研发、寿司材料供应、统一客户服务、店铺装修指导、店铺业绩提升、店铺人员培训 </p>
+    </div>
+  </div>-->
+</div>
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jdt.js"></script> 
+<!--新闻动态，关于我们-->
+<div class="main">
+  <div class="inmain clearfix">
+    <div class="xinwen">
+      <div class="hd">
+        <h2>{dede:type typeid='3'}<a href="[field:typelink /]"><em></em></a>{/dede:type} 新闻动态<span>/NEWS</span></h2>
+      </div>
+      {dede:arclist row='2'  typeid='3'  titlelen='58'}
+      <div style="margin-bottom:15px;" class="inxinWen clearfix">
+        <div class="inxinWenfl"> <a href="[field:arcurl/]"> <img src="[field:litpic/]">
+          <h4>[field:title/]</h4>
+          <p>    [field:description function="cn_substr(@me,110)"/]...</p>
+          </a> </div>
+        <div class="riqi"><span>[field:pubdate function="MyDate('Y-m',@me)"/]<br>
+          <strong>[field:pubdate function="MyDate('d',@me)"/]</strong></span></div>
+      </div>
+      {/dede:arclist} </div>
+    <div class="guanyu">
+      <div class="hd">
+        <h2>{dede:type typeid='1'} <a href="[field:typelink /]"><em></em></a> {/dede:type} 关于我们<span>/ABOUT</span></h2>
+      </div>
+      <div class="inGuanyu"> <a ><img src="{dede:global.cfg_templets_skin/}/images/guanyu.jpg"></a> {dede:global.syjj/} </div>
+    </div>
+  </div>
+</div>
+<!--美味中心-->
+<div class="meiWei meiweibg">
+  <div class="hd1">
+    <h3>产品展示<br>
+      <span>DELICIOUS CENTER</span></h3>
+  </div>
+  <div class="gengduo">{dede:type typeid='4'} <a class="yanseD" href="[field:typelink /]">Read More</a>{/dede:type} </div>
+  <ul class="xczp clearfix">
+    {dede:arclist row='6'  typeid='4'  titlelen='58'}
+    <li>
+      <div class="pic"> <a href=" [field:litpic/]" title="[field:title/] " rel="lightbox"> <img src="[field:litpic/]"></a> </div>
+      <span>[field:title/]</span> </li>
+    {/dede:arclist}
+  </ul>
+  <div class="clearfix"></div>
+</div>
+<!--
+<div class="dianpu clearfix">
+  <div class="dianFl"> {dede:type typeid='10'} <a href="[field:typelink /]"> {/dede:type} <img src="{dede:global.cfg_templets_skin/}/images/dian1.jpg"> </a> </div>
+  <div class="dianFr">
+    <h3>店铺展示<br>
+      <span>THE STORE DISPLAY</span></h3>
+    <p>门店VI统一展示，单店设计融入本地特色，充分兼顾品牌形象与店铺地方特点。远来有诗酒之气，近看是百姓人家，初鲜，专注，时尚，美味，共享！</p>
+    {dede:type typeid='10'} <a href="[field:typelink /]">Read More</a> {/dede:type} </div>
+</div>
+-->
+{dede:include filename="foot.htm"/}
+</body>
+</html>

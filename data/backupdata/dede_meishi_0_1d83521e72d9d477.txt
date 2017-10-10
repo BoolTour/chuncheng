@@ -1,0 +1,9 @@
+INSERT INTO `dede_meishi` VALUES('7','5','','','0.0.0.0','<div style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"/uploads/allimg/160905/1-160Z521242c51.png\" style=\"width: 1028px; height: 690px;\" /></div>\r\n');
+INSERT INTO `dede_meishi` VALUES('8','5','','','0.0.0.0','<div style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"/uploads/allimg/160905/1-160Z5213429594.png\" style=\"width: 1000px; height: 645px;\" /></div>\r\n');
+INSERT INTO `dede_meishi` VALUES('9','5','','','0.0.0.0','<img alt=\"\" src=\"/uploads/allimg/160905/1-160Z5213512a7.png\" style=\"width: 730px; height: 486px;\" />');
+INSERT INTO `dede_meishi` VALUES('10','5','','','0.0.0.0','<img alt=\"\" src=\"/uploads/allimg/160905/1-160Z5213620510.png\" style=\"width: 730px; height: 486px;\" />');
+INSERT INTO `dede_meishi` VALUES('11','5','','','0.0.0.0','<img alt=\"\" src=\"/uploads/allimg/160905/1-160Z521364Y17.jpg\" style=\"width: 1024px; height: 683px;\" />');
+INSERT INTO `dede_meishi` VALUES('12','5','','','127.0.0.1','<img alt=\"\" src=\"/uploads/allimg/160905/1-160Z5213K95K.jpg\" style=\"width: 607px; height: 444px;\" />');
+INSERT INTO `dede_meishi` VALUES('13','6','','','0.0.0.0','<img alt=\"\" src=\"/uploads/allimg/160905/1-160Z521392O10.png\" style=\"width: 494px; height: 504px;\" />');
+INSERT INTO `dede_meishi` VALUES('14','6','','','0.0.0.0','<img alt=\"\" src=\"/uploads/allimg/160905/1-160Z5214042611.png\" style=\"width: 480px; height: 442px;\" />');
+INSERT INTO `dede_meishi` VALUES('15','6','','','0.0.0.0','<img alt=\"\" src=\"/uploads/allimg/160905/1-160Z5214153V6.png\" style=\"width: 877px; height: 648px;\" />');

@@ -1,0 +1,1 @@
+<a class="yanseD" href="[field:typelink /]">Read More</a>

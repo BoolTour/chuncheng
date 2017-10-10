@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>初鲜官网|初鲜外带寿司|寿司店加盟热线:4008787652|打造中国现做外带寿司最受欢迎品牌 - </title>
+<meta name="keywords" content="寿司加盟    初鲜   外带寿司" />
+<meta name="description" content="初鲜外带寿司：时尚-美味-共享" />
+ <link rel="stylesheet" type="text/css" href="/style/css/style.css" media="all" />
+<script type="text/javascript" src="/style/js/jquery-1.7.2.js"></script>
+ <!--点击图片放大-->
+<script language="javascript" type="text/javascript" src="/style/js/jquery.lightbox-0.5.js"></script>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+
+	var flag=0;
+		$(".menu>li").bind({
+			mouseenter:function(){
+				$(this).find(">a").addClass("ns");
+				if($(this).find(">a").hasClass("ns")) flag=1; else flag=0;
+				$(this).find(">ul").show();
+			},
+			mouseleave:function(){
+				$(this).find(">ul").hide()
+				$(this).find(">a").removeClass("ns");
+			}
+			});
+	
+	$('.pic a').lightBox();
+	});
+	
+		function ShowNav(idn){
+	if($(idn).parent("li").find("ul").css("display")=='none') 
+	{
+	$(".left_nav li ul").slideUp();
+	$(idn).parent("li").find("ul").slideDown();}
+	}
+</script>
+<!--点击图片放大-->
+</head>
+
+<body>
+ <!--头部导航-->
+<div class="top">
+  <div class="nav clearfix">
+    <div class="logo"><img src="/style/images/logo.png" /></div>
+    <div class="inNav">
+      <div class="inNavTop clearfix">
+        <p><a href="#">设为首页 | 收藏本站</a></p>
+      </div>
+      <div class="navB">
+        <ul class="clearfix">
+          <li><a class="row" href="/">首页</a></li>
+                           <li><a href="http://www.chuxianss.com/list-16.html">新闻动态</a></li>
+                               <li><a href="http://www.chuxianss.com/page-17.html">寿司加盟</a></li>
+                               <li><a href="http://www.chuxianss.com/list-18.html">美味中心</a></li>
+                               <li><a href="http://www.chuxianss.com/list-19.html">店铺信息</a></li>
+                               <li><a href="http://www.chuxianss.com/page-21.html">关于初鲜</a></li>
+                               <li><a href="http://www.chuxianss.com/page-22.html">联系我们</a></li>
+                    </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--焦点图部分-->
+<div class="mainbanner clear">
+  <div class="mainbanner_window">
+    <ul id="slideContainer">
+              <li> <a href=""> <img src="/upload/2015-10-23/506123c5029db18ed1764b2d44be6f8f.jpg" width="1920" height="620" /> </a> </li>
+                  <li> <a href=""> <img src="/upload/2015-10-23/08ba4f5c1eb819e867d1c610288dc075.jpg" width="1920" height="620" /> </a> </li>
+                  <li> <a href=""> <img src="/upload/2015-10-23/eb6121661fab12a725b6ea7167967d33.jpg" width="1920" height="620" /> </a> </li>
+                  <li> <a href=""> <img src="/upload/2015-10-23/76d0c160fe80989ca47433fff0d7e32e.jpg" width="1920" height="620" /> </a> </li>
+                  <li> <a href=""> <img src="/style/images/jdt2.jpg" width="1920" height="620" /> </a> </li>
+                      </ul>
+  </div>
+  <ul class="mainbanner_list">
+           <li><a href="javascript:void(0);"></a></li>
+     <li><a href="javascript:void(0);"></a></li>
+     <li><a href="javascript:void(0);"></a></li>
+     <li><a href="javascript:void(0);"></a></li>
+     <li><a href="javascript:void(0);"></a></li>
+   
+ </ul>
+  <div class="biaoyu">
+    <div class="inbiaoyu"> <strong>  全国加盟热线<span><img src="/style/images/tel.png" /></span>400-8787-652</strong>
+      <p>想吃正宗纯现做寿司，请认准初鲜！—我们专注于做中国纯现做、平价外带寿司最受欢迎品牌<br />
+        寿司产品研发、寿司材料供应、统一客户服务、店铺装修指导、店铺业绩提升、店铺人员培训 </p>
+    </div>
+  </div>
+</div>
+<script language="javascript" type="text/javascript" src="/style/js/jdt.js"></script> 
+
+<!--新闻动态，关于我们-->
+<div class="main">
+  <div class="inmain clearfix">
+    <div class="xinwen">
+      <div class="hd">
+        <h2><a href="/list-16.html"><em></em></a>新闻动态<span>/NEWS</span></h2>
+      </div>
+      
+         
+      <div style="margin-bottom:15px;" class="inxinWen clearfix">
+        <div class="inxinWenfl"> <a href="http://www.chuxianss.com/article/20.html"> <img src="/upload/2015-10-27/31799bde17f9b233a611fdae4bf7b774.jpg">          <h4>寿司分两大派别：一、江户派，握寿司；二、关西派，箱寿司</h4>
+          <p>    寿司是在饭里放醋做主材料的日本料理，味道鲜美，色彩非常鲜明。制作时，把新鲜的海胆黄、鲍鱼、牡丹虾、扇贝、鲑鱼籽、鳕鱼鱼白、金枪鱼、三文鱼等海鲜切成片放在雪白香糯的</p>
+          </a> </div>
+        <div class="riqi"><span>2015-10<br />
+          <strong>21</strong></span></div>
+      </div>
+              
+      
+      <div class="inxinWen clearfix">
+        <div class="inxinWenfl"> <a href="http://www.chuxianss.com/article/17.html"> <img src="/upload/2015-10-27/97e01087fdd358bd7bafb04fb5591de7.jpg">          <h4>SUSHI料理精华篇（刺身、寿司及用餐礼仪）</h4>
+          <p>      日本料理是用眼睛品尝的料理，它极其讲究形与色，盛器配合食物，造型美轮美奂，让人不忍下箸。日本人很追求完美，拼摆得自然别致是日本料理的吸引人之处。摆出的菜有主有次</p>
+          </a> </div>
+        <div class="riqi"><span>2015-10<br />
+          <strong>19</strong></span></div>
+      </div>
+           </div>
+    <div class="guanyu">
+      <div class="hd">
+        <h2><a href="/page-21.html"><em></em></a>关于我们<span>/ABOUT</span></h2>
+      </div>
+      <div class="inGuanyu"> <a href="/page-21.html"><img src="/style/images/guanyu.jpg" /></a>
+        <p>初鲜寿司起源于上海，发展在杭州。总部设在美丽的人间天堂—杭州。2013年我们依托杭州杭采餐饮管理有限公司全面开始加盟连锁事业。</p>
+        <p>公司经营以寿司制作和销售为主的快速餐饮连锁店，我们旨在建立完备的后勤管理和更为先进的管理模式。‘统一设备，统一原料，统一品质，统一形象，统一管理，统一文化’这“六个统一”是我. . . </p>      </div>
+    </div>
+  </div>
+</div>
+
+<!--美味中心-->
+<div class="meiWei meiweibg">
+  <div class="hd1">
+    <h3>美味中心</strong><br />
+      <span>DELICIOUS CENTER</span></h3>
+  </div>
+  <div class="gengduo"><a class="yanseD" href="/list-23.html">Read More</a></div>
+  <ul class="xczp clearfix">
+   
+  <li>
+      <div class="pic"> <a href=" /upload/2015-10-26/45114c0105be3da6bdf925d32874aecd.jpg" title="美式加州卷 " rel="lightbox"> <img src="/upload/2015-10-26/45114c0105be3da6bdf925d32874aecd.jpg"></a> </div>
+      <span>美式加州卷 </span> </li>
+         
+  <li>
+      <div class="pic"> <a href=" /upload/2015-10-21/45b21c631af180802bcc72631ad6152c.jpg" title="玉子握" rel="lightbox"> <img src="/upload/2015-10-21/45b21c631af180802bcc72631ad6152c.jpg"></a> </div>
+      <span>玉子握</span> </li>
+         
+  <li>
+      <div class="pic"> <a href=" /upload/2015-10-21/a95806af0cf17d02725c5e510c0487d3.jpg" title="白雪公主卷" rel="lightbox"> <img src="/upload/2015-10-21/a95806af0cf17d02725c5e510c0487d3.jpg"></a> </div>
+      <span>白雪公主卷</span> </li>
+                
+       
+  </ul>
+  
+  <div class="clearfix"></div>
+</div>
+<div class="dianpu clearfix">
+  <div class="dianFl"> <a href="/list-19.html"> <img src="/style/images/dian1.jpg" /> </a> </div>
+  <div class="dianFr">
+    <h3>店铺展示<br />
+      <span>THE STORE DISPLAY</span></h3>
+    <p>门店VI统一展示，单店设计融入本地特色，充分兼顾品牌形象与店铺地方特点。远来有诗酒之气，近看是百姓人家，初鲜，专注，时尚，美味，共享！</p>
+    <a href="/list-19.html">Read More</a> </div>
+</div>
+
+ 
+<!--联系我们-->
+<div class="lianxi">
+  <div class="inLianxi">
+    <div class="hd1">
+      <h3><strong>联系我们/</strong><span>CONTACT</span></h3>
+    </div>
+    <div class="inLX clearfix">
+      <form action="/index.php?r=DuxCms/Form/push" method="post" AutoComplete="off" >
+ <div class="inLianxiFl">
+        <p>
+          <label>姓名：</label>
+          <input type="text" class="biaoA" name="name"/>
+        </p>
+        <p>
+          <label>邮箱：</label>
+          <input type="text" class="biaoA" name="email"/>
+        </p>
+        <p>
+          <label>手机：</label>
+          <input type="text" class="biaoA" name="tel"/>
+        </p>
+        <p>
+          <label class="Liu">留言：</label>
+          <textarea  name="message"></textarea>
+        </p>
+         <input name="table" type="hidden" value="lianxi">
+          <input name="token" type="hidden" value=' f72ee5cc8328c4573c59308d084f9a42 '>
+        <input type="submit" value="提交" class="tijiao" />
+      </div>
+      </form>
+      <div class="inLianxiFr"> <strong>全国加盟热线：400-8787-652</strong>
+ <p>
+	<span style="color:#CCCCCC;font-size:14px;"><span style="font-size:14px;color:#CCCCCC;">杭州杭采餐饮管理有限公司</span></span> 
+</p>
+<p>
+	<span style="color:#CCCCCC;font-size:14px;"><span style="line-height:24px;color:#CCCCCC;font-size:14px;">公司地址：浙江省杭州市下沙天城东路77号创意大厦</span></span> 
+</p>
+<p>
+	<span style="color:#CCCCCC;font-size:16px;"><span style="font-size:16px;color:#CCCCCC;"> </span></span> 
+</p>
+<p class="MsoNormal">
+	<span style="color:#CCCCCC;font-size:14px;line-height:1.5;"><span style="color:#CCCCCC;font-size:14px;line-height:21px;white-space:normal;"><span style="color:#CCCCCC;font-size:14px;line-height:21px;white-space:normal;">全国服务热线：4008787652</span><br />
+</span></span> 
+</p>
+<p class="MsoNormal">
+	<span style="color:#CCCCCC;font-size:14px;line-height:1.5;"><span style="color:#CCCCCC;font-size:14px;line-height:21px;white-space:normal;">加盟咨询QQ：1620602527</span></span> 
+</p>
+<p class="MsoNormal">
+	<span style="color:#CCCCCC;font-size:14px;line-height:21px;">加盟咨询QQ：3181342256</span> 
+</p>
+<p>
+	<span style="color:#CCCCCC;font-size:14px;line-height:1.5;">E-mail: &nbsp;chuxianss@163.com</span> 
+</p>
+<div class="shijian">
+	<p>
+		&nbsp;<img src="/upload/2016-04-26/4fbfc30d4e482504e48773250c0aab65.jpg" alt="" />
+	</p>
+</div>      </div>
+    </div>
+  </div>
+</div><!--底部-->
+<div class="footer"> 
+  <p>
+	&copy;2015 chuxianss 版权所有
+</p>
+<p>
+	杭州杭采餐饮管理有限公司    总部地址：浙江省杭州市下沙天城东路77号创意大厦B座
+</p>
+<p>
+	浙ICP备15039887号
+</p>
+<script type="text/javascript" charset="gb2312" src="http://image.p4p.sogou.com/accountjs/85/18732685.js?v=20140509"></script>
+
+  <p>技术支持：<a target="_blank" href="http://www.eit0571.com/">故乡人</a></p>
+</div>
+
+<!--kefu--> 
+<!-- 代码部分begin -->
+<div class="side">
+  <ul>
+    <li><a href="http://www.chuxianss.com/list-23.html">
+      <div class="sidebox"><img src="/style/images/side_icon01.png">美味中心</div>
+      </a></li>
+ 
+    <li><a href="http://www.chuxianss.com/page-22.html">
+      <div class="sidebox"><img src="/style/images/side_icon06.png">联系我们</div>
+      </a></li>
+     <li><a href="http://wpa.qq.com/msgrd?v=3&uin=1620602527&site=qq&menu=yes" target="_blank">
+      <div class="sidebox"><img src="/style/images/side_icon04.png">QQ客服</div>
+      </a></li>
+      	
+       
+ <!--    <li><a href="javascript:void(0);" >
+      <div class="sidebox"><img src="/style/images/side_icon033.png">微信</div>
+      </a></li> -->
+
+     <!---->
+     <li style=" right:0;background:#333;">
+          <div class="toprg2" style="margin-top:0px;">
+                         <a class="aaa1" href="#">
+                                <img src="/style/images/side_icon033.png">
+                              <p style="top:-36px; left:-150px;"><img src="/style/images/erweima.jpg" style="text-align:top;"></p>    
+                            </a>
+                                <div class="clear"></div>
+                 </div>
+        </li>
+        <!---->
+        
+
+
+
+    <li style="border:none;"><a href="javascript:goTop();" class="sidetop"><img src="/style/images/side_icon05.png"></a></li>
+  </ul>
+</div>
+<style type="text/css">
+    .toprg2{ float:right; margin-top:35px;}
+  .toprg2 a{ display:block; float:left; position:relative;}
+  .toprg2 .aaa1{ padding-left:5px; padding-top:0px;}
+  .toprg2 .aaa1 p{display:none;  _height:auto; _width:auto; cursor:pointer; z-index:10000; overflow:hidden;}
+  .toprg2 .aaa1:hover{ visibility:visible; color:#fff; text-decoration:none;}
+  .toprg2 .aaa1:hover p{position:absolute; top:32px; left:-65px; display:block;  overflow:hidden; text-align:left; z-index:1000; overflow:hidden; text-decoration:none; width:150px; height:150px;}
+  .toprg2 .aaa1:hover p img{ width:150px; height:150px;}
+  
+</style>
+
+<script>
+$(function(){
+	$(".side ul li").hover(function(){
+		$(this).find(".sidebox").stop().animate({"width":"124px"},200).css({"opacity":"1","filter":"Alpha(opacity=100)","background":"#ae1c1c"})	
+	},function(){
+		$(this).find(".sidebox").stop().animate({"width":"54px"},200).css({"opacity":"0.8","filter":"Alpha(opacity=80)","background":"#000"})	
+	});
+});
+//回到顶部函数
+function goTop(){
+	$('html,body').animate({'scrollTop':0},300);
+}
+</script> 
+<!-- 代码部分end -->
+
+</body></html>

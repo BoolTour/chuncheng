@@ -1,0 +1,20 @@
+<div class="top">
+  <div class="nav clearfix">
+    <div class="logo"><img src="{dede:global.cfg_templets_skin/}/images/logo.png"></div>
+    <div class="inNav">
+     <!-- <div class="inNavTop clearfix">
+        <p><a href="#">设为首页 | 收藏本站</a></p>
+      </div>-->
+      <div class="navB">
+        <ul class="clearfix">
+          <li><a {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='row' ":@me="";{/dede:field} href="/">首页</a></li>
+          {dede:channel type='top' currentstyle="
+          <li><a href='~typelink~' class='row'>~typename~</a></li>
+          "}
+          <li><a href="[field:typeurl/]">[field:typename/]</a></li>
+          {/dede:channel}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

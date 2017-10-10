@@ -1,0 +1,61 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>{dede:field.seotitle /}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/style.css" media="all">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.js"></script>
+<!--点击图片放大-->
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.lightbox-0.5.js"></script>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+	var flag=0;
+		$(".menu>li").bind({
+			mouseenter:function(){
+				$(this).find(">a").addClass("ns");
+				if($(this).find(">a").hasClass("ns")) flag=1; else flag=0;
+				$(this).find(">ul").show();
+			},
+			mouseleave:function(){
+				$(this).find(">ul").hide()
+				$(this).find(">a").removeClass("ns");
+			}
+			});
+	
+	$('.pic a').lightBox();
+	});
+	
+		function ShowNav(idn){
+	if($(idn).parent("li").find("ul").css("display")=='none') 
+	{
+	$(".left_nav li ul").slideUp();
+	$(idn).parent("li").find("ul").slideDown();}
+	}
+</script>
+<!--点击图片放大-->
+</head>
+<body>
+
+<!--头部导航--> 
+
+{dede:include filename="head.htm"/}
+<div class="news">
+  <div class="hd2">
+    <h3><strong>{dede:field name='typename'/}/</strong><span>{dede:field.typenameen /}</span></h3>
+  </div>
+  <ul>
+    {dede:list pagesize='5'}
+    <li class="clearfix"> <a href="[field:arcurl/]"> <img src="[field:litpic/]">
+      <h4>[field:title/]</h4>
+      <span>发布时间：[[field:pubdate function=strftime('%y-%m-%d',@me)/]]</span>
+      <p>[field:description function='cn_substr(@me,220)'/]......</p>
+      </a> </li>
+    {/dede:list}
+  </ul>
+  <div id="pages"> {dede:pagelist listitem="index,end,pre,next,pageno" listsize="5"/} </div>
+</div>
+<!--底部--> 
+{dede:include filename="foot.htm"/}
+</body>
+</html>

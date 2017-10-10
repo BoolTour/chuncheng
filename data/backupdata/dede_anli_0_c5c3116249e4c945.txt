@@ -1,0 +1,4 @@
+INSERT INTO `dede_anli` VALUES('14','14','','','0.0.0.0','<blockquote>\r\n	工程名称：徐福记检测中心1至5楼实验室项目工程</blockquote>\r\n<blockquote>\r\n	承包方式：包工、包料、包工期、包质量、包安全</blockquote>\r\n<blockquote>\r\n	工程工期：&nbsp;110天</blockquote>\r\n<blockquote>\r\n	质量评定结果：合格</blockquote>\r\n');
+INSERT INTO `dede_anli` VALUES('15','14','','','0.0.0.0','生物科技公司');
+INSERT INTO `dede_anli` VALUES('16','14','','','0.0.0.0','');
+INSERT INTO `dede_anli` VALUES('17','14','','','0.0.0.0','');
